@@ -1,0 +1,1 @@
+xcopy  caminhoOrigem  caminhoDestino  /E /H /C /I /Y

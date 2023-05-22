@@ -1,0 +1,3 @@
+dsadd ou "ou=unidadeOrganizacionalFilho1,ou=unidadeOrganizacionalPai,dc=dominio,dc=local"
+dsadd ou "ou=unidadeOrganizacionalFilho2,ou=unidadeOrganizacionalPai,dc=dominio,dc=local"
+dsadd ou "ou=unidadeOrganizacionalFilho3,ou=unidadeOrganizacionalPai,dc=dominio,dc=local"

@@ -1,0 +1,25 @@
+É importante dizer que o mapeamento dos usuários, são uma prática comum do dia à dia, de quem trabalha com o Active Directory. 
+Os scripts que eu criei entram em funcionamento assim que o usuário se loga no pc. 
+Pois na criação do usuário existe a possibilidade de mapear pastas da rede para este usuário, fazemos isso, 
+definindo um caminho de logon que eu chamei de Tec_Informatica.bat, e assim que o usuário se logar, 
+esse script chamado de Tec_Informatica.bat será executado por primeiro.
+
+Motivo que eu tive pra criar esses eventos partiram da necessidade de desligar computadores da rede sem precisar ir até eles
+e desligar um por um. E nós SysAdmins sabemos que os usuários usam os pcs em seus setores e muitas vezes deixam eles ligados.
+Quando existe uns 3 à 20 computadores em uma empresa, desligar um por um é tranquilo. Agora desligar mais de 150 já se torna 
+muito cansativo. 
+
+
+1 - É executado o script de mapeamento Tec_Informatica.bat
+
+2 - É executado o script InicioDesligarPC.vbs que tem a função de chamar o script DesligarPC.bat
+    e também de executá-lo em Segundo Plano.
+
+3 - O Script DesligarPC.bat possui código e gerenciamento para desligar pc. 
+    Tem uma loop rolando para checar a todo momento a hora e assim através de um IF
+    podemos saber se horaAtual é maior ou igual a hora que determinamos, se sim, o loop é parado e
+    é executado o comando para desligar o pc.
+
+OBS:
+    Deixei todos os arquivos dentro da pasta sysvol, onde fica os scripts em Batch para 
+    mapeamento de rede.

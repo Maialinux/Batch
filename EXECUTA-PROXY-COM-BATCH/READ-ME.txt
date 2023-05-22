@@ -1,0 +1,13 @@
+O ARQUIVO proxyHabilitado.reg, é um registro que define o 
+endereço de proxy no computador da rede. 
+Ele será executado pelo arquivo executaProxyRegedit.bat
+
+CHAME O ARQUIVO "executaProxyRegedit.bat" DENTRO DO ARQUIVO.BAT 
+USADO PARA MAPEAMENTO DAS PASTAS COMPARTILHADAS PARA O USUÁRIO.
+
+COMANDO INSERIDO NO MAPEAMENTO.bat É:
+
+call executaProxyRegedit.bat
+
+
+Testes realizados no Windows 7 e Windows 10.

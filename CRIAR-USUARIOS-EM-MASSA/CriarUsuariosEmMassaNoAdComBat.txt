@@ -1,0 +1,4 @@
+dsadd ou "cn=luiz.ribeiro, ou=unidadeOrganizacional10, dc=dominio,dc=local" -fn Luiz -ln Ribeiro -upn luiz.ribeiro@dominio.local -pwd Senha2022
+dsadd ou "cn=fernando.mattos, ou=unidadeOrganizacional10, dc=dominio,dc=local" -fn Fernando -ln Mattos -upn fernando.mattos@dominio.local -pwd Senha2022
+dsadd ou "cn=maria.algumaCoisa,ou=unidadeOrganizacional200,dc=dominio,dc=local" -fn Maria -ln AlgumaCoisa -upn maria.algumaCoisa@dominio.local -pwd Senha2022
+

@@ -1,0 +1,3 @@
+dsadd group "cn=NomeGrupo1, ou=unidade1, dc=dominio, dc=local" 
+dsadd group "cn=NomeGrupo2, ou=unidade2, dc=dominio, dc=local" 
+dsadd group "cn=NomeGrupo3, ou=unidade1, dc=dominio, dc=local" 
