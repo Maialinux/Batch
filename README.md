@@ -10,6 +10,6 @@
 
 <a href="https://github.com/Maialinux/Programas-em-Batch/tree/main/DESLIGAR-WINDOWS-UPDATE">Desliga o Windows Update e o Aviso de Windows 11</a>
 
-<a href="https://github.com/Maialinux/Programas-em-Batch/tree/main/EXECUTA-PROXY-COM-BATCH">DEFINE PROXY DE REDE VIA MAPEAMENTO DE USUÁRIO EM REDE</a>
+<a href="https://github.com/Maialinux/Programas-em-Batch/tree/main/EXECUTA-PROXY-COM-BATCH">Define Proxy de Rede Via Mapeamento de Usuário em Rede</a>
 
 <a href="https://github.com/Maialinux/Programas-em-Batch/tree/main/MAPEAMENTO-DESLIGAR-PC">Desliga Computadores de Usuários na Rede</a>
